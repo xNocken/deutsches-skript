@@ -1,0 +1,7 @@
+konstante hallo ist 0;
+konstante hallo2 ist 5;
+konstante hallo4 ist 25;
+
+konstante hallo3 ist summe hallo, summe hallo2, hallo4;
+
+log in console(hallo3);
