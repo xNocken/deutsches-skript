@@ -1,0 +1,6 @@
+konstante Discord ist importiert von discord-module;
+konstante config ist importiert von ./config.json;
+
+konstante discord ist eine neue instanz von Discord(config);
+
+onmessage in discord ist (message, reply) => { gib message in der konsole aus; reply(summe von content in message und summe von "was tolles" und " oder nicht") }

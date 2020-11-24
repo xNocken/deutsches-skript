@@ -1,7 +1,21 @@
+
 konstante hallo ist 0;
 konstante hallo2 ist 5;
 konstante hallo4 ist 25;
 
-konstante hallo3 ist summe hallo, summe hallo2, hallo4;
+objekt moin {
+  hallo ist summe von 5, 9;
+  hallo2 ist "hi";
+  hallo3 ist "hi";
+  hallo4 ist "hi";
+};
 
-log in console(hallo3);
+liste moin2 {
+  summe von 5, 10;
+};
+
+konstante hallo3 ist differenz von hallo und quotient von hallo2 und hallo4;
+
+hallo in moin ist summe von hallo2 in moin und hallo3;
+
+gebe moin in der konsole aus;
