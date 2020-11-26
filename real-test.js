@@ -3,4 +3,11 @@ const config = require('./config.json');
 
 const discord = new Discord(config);
 
-discord.onmessage = (message, reply) => { console.log(message); reply(message.content + summe von "was tolles" und " oder nicht") }
+discord.onmessage = (message, reply) => {
+  console.log(message.content); 
+  console.log(message);
+
+  if (message.author.username !== "TestVortexBot") {
+    reply(message.content);
+  };
+};

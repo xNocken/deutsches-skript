@@ -3,4 +3,10 @@ konstante config ist importiert von ./config.json;
 
 konstante discord ist eine neue instanz von Discord(config);
 
-onmessage in discord ist (message, reply) => { gib message in der konsole aus; reply(summe von content in message und summe von "was tolles" und " oder nicht") }
+onmessage in discord ist eine funktion mit den argumenten message und reply und führt
+  gib content in message in der konsole aus; 
+
+  wenn username in author in message ist nicht gleich "TestVortexBot" dann führ
+    reply(content in message);
+  aus;
+aus;
